@@ -15,19 +15,16 @@ int main(){
     // if(c>a&&c>b){
     //     cout<<"c is greatest"<<endl;
     // }
-  if(a>b){
-      if(b>c){
-        cout<<"a is greatest";
-      }
+    if (a > b && a > c) {
+      cout << "a is greatest";
   }
-  else{
-    if(a>c){
-        cout<<"b is greatest ";
-    }
-    else{
-        cout<<"c is grratest";
-    }
+  else if (b > a && b > c) {
+      cout << "b is greatest";
   }
+  else {
+      cout << "c is greatest";
+  }
+  
   int d;cin>>d;
 int ans=max(d,max(a,max(b,c)));
 
