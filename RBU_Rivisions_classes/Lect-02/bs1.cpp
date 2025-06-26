@@ -10,8 +10,8 @@ int main()
     int key; cin>>key;
 
     sort(arr,arr+n);  //sorted data
+    
     //binary search 
-
     int low=0,high=n-1;
     int mid;
     bool present =false;
