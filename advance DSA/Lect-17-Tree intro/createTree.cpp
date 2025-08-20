@@ -18,6 +18,9 @@ void preorder(Node* root){
     preorder(root->left);
     preorder(root->right);
 }
+void inorder(Node* root){
+    
+}
 
 int main()
 {
